@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<title> GALLERY </title>
+</head>
+<script type = “text/javascript”> 
+
+	alert(“JavaScript is working in your browser”);
+
+</script>
+  
+</br>  
+<body onload="window.alert('Page successfully loaded');">  
+<script>  
+
+</script>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: LavenderBlush;
+  background-image: url(image/image3.jpg);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #FFB6C1;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #DC143C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FF69B4;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: center;
+  width: 100%;
+}
+
+/* Fake image */
+.onepiece{
+  background-color: #DB7093;
+  width: 100%;
+  padding: 20px;
+  background-image: url(image/Vol93.jpg);
+}
+.aina{
+  background-color: #DB7093;
+  width: 100%;
+  padding: 20px;
+  background-image: url(image/aina.jpg);
+}
+.mha{
+  background-color: #DB7093;
+  width: 100%;
+  padding: 20px;
+  background-image: url(image/Vol20.jpg);
+}
+.beach{
+  background-color: #DB7093;
+  width: 100%;
+  padding: 20px;
+  background-image: url(image/beach1.jpg);
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>WELCOME TO MY GALLERY</h1>
+  <p>"Life is the art of drawing without an eraser."</p>
+</div>
+
+<div class="topnav">
+  <a href="index1.php">Home</a>
+  <a href="index2.php">About Me</a>
+  <a href="index3.php">Gallery</a>
+  <a href="index4.php">Contact Me</a>
+  <a href="index5.php" style="float:right">Comment</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="gallery">
+  <a target="Individual Project/image/art1.jpeg" href="art1.jpeg">
+    <img src="image/art1.jpeg" alt="Supernova" width="600" height="400">
+  </a>
+  <div class="desc">Supernova from One Piece.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art2.jpeg" href="art2.jpeg">
+    <img src="image/art2.jpeg" alt="Supernova2" width="600" height="400">
+  </a>
+  <div class="desc">Supernova from One Piece.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art3.jpeg" href="art3.jpeg">
+    <img src="image/art3.jpeg" alt="Shigaraki Tomura" width="600" height="400">
+  </a>
+  <div class="desc">Shigaraki Tomura from My Hero Academia.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art4.jpeg" href="art4.jpeg">
+    <img src="image/art4.jpeg" alt="Bakugou" width="600" height="400">
+  </a>
+  <div class="desc">Bakugou Katsuki from My Hero Academia.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art5.jpeg" href="art5.jpeg">
+    <img src="image/art5.jpeg" alt="Stain" width="600" height="400">
+  </a>
+  <div class="desc">Hero Killer: Stain from My Hero Academia.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art6.jpeg" href="art6.jpeg">
+    <img src="image/art6.jpeg" alt="Code" width="600" height="400">
+  </a>
+  <div class="desc">KARA Code from BORUTO.</div>
+</div>
+
+<div class="gallery">
+  <a target="Individual Project/image/art7.jpeg" href="art7.jpeg">
+    <img src="image/art7.jpeg" alt="Shouto" width="600" height="400">
+  </a>
+  <div class="desc">Todoroki Shouto from My Hero Academia.</div>
+</div>
+
+<div class="footer">
+<video width="900" height="400" controls>
+  <source src="video/video.mp4" type="video/mp4">
+</video>
+  <h2><audio controls>
+  <source src="audio/Shout Baby.mp3" type="audio/mpeg">
+</audio></h2>
+</div>
+
+  
+
+
+</body>
+</html>
